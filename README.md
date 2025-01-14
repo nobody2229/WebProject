@@ -1,9 +1,11 @@
-**در این پروزه ابتدا در لوکال سیستم پوشه ای به نام WebProject ساختم سپس به عنوان پوشه ریشه قرار دادم و سه فایل index.html,style.css,script.js
+**در این پروژه ابتدا در لوکال سیستم پوشه ای به نام WebProject ساختم سپس به عنوان پوشه ریشه قرار دادم و سه فایل index.html,style.css,script.js
 رو در ان پوشه ایجاد کردم و شاخه ای به نام feature/update-title که با استفاده از ان عنوان را تغییر داردم و پوشه main رو اپدیت کردم و بعد شاخه را پاک 
 کردم. دستورات conflict,revertmerge همگی در لوکال اجرا و سپس همه را به گیت هاب پوش کردم
 با در گیت هاب پروژه Web project tasks را تعریف و ایسو به نام افزودن فوتر ایجاد کردم شاخه جدیدی به نام feature/add-footer ساختم و 
-سپس پروژه را در نرم افزار گیت دیسکتاپ بروز رسانی کردم فایل ایندکس در شاخه فوتر را برزوزرسانی و فوتر را اضافه سپس به گیت هاپ پوش و در پیت هاب دستور پول و مرج
-جزییات پروژه در لوکال به شرح ذیل می باشد**
+سپس پروژه را در نرم افزار گیت دسکتاپ بروز رسانی کردم فایل ایندکس در شاخه فوتر را برزوزرسانی و فوتر را اضافه سپس به گیت هاب پوش و در گیت هاب دستور پول و مرج
+بابت کلون هم امکان اوردن پروژه از گیت هاب به پیت هاب دسکتاب وجود دارد برای راحتی کار و پوش و پول کردن ان
+ جزییات پروژه در لوکال به شرح ذیل می باشد**
+
 
 
 
@@ -178,14 +180,10 @@ C:\Users\CD CITY\WebProject>git commit -m"changes in feature branch"
 [feature/conflict-example 83eddb3] changes in feature branch
  1 file changed, 1 insertion(+), 1 deletion(-)
 
-C:\Users\CD CITY\WebProject>git branch main
-fatal: a branch named 'main' already exists
 
 C:\Users\CD CITY\WebProject>git checkout main
 Switched to branch 'main'
 
-C:\Users\CD CITY\WebProject>لهف سفشفعس
-'لهف' is not recognized as an internal or external command,
 operable program or batch file.
 
 C:\Users\CD CITY\WebProject>git status
@@ -239,8 +237,7 @@ Unmerged paths:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 
-C:\Users\CD CITY\WebProject>git add index.htSl
-fatal: pathspec 'index.htSl' did not match any files
+
 
 C:\Users\CD CITY\WebProject>git add index.html
 
@@ -324,7 +321,7 @@ Author: nobody2229 <141580690+nobody2229@users.noreply.github.com>
 Date:   Mon Jan 13 23:28:58 2025 +0330
 
 
-C:\Users\CD CITY\WebProject>
+
 C:\Users\CD CITY\WebProject>git show 0e1a899bf0223c36c7b3ee69de978542fffd2b88
 commit 0e1a899bf0223c36c7b3ee69de978542fffd2b88 (HEAD -> main)
 Author: nobody2229 <141580690+nobody2229@users.noreply.github.com>
@@ -396,4 +393,4 @@ index 6dc5935..3cf9980 100644
 
 C:\Users\CD CITY\WebProject>git remote add WebProject https://github.com/nobody2229/WebProject.git
 
-C:\Users\CD CITY\WebProject>git push -U WebProject main
+C:\Users\CD CITY\WebProject>git push -u WebProject main
