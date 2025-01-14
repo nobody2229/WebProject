@@ -394,3 +394,11 @@ index 6dc5935..3cf9980 100644
 C:\Users\CD CITY\WebProject>git remote add WebProject https://github.com/nobody2229/WebProject.git
 
 C:\Users\CD CITY\WebProject>git push -u WebProject main
+C:\Users\CD CITY\WebProject>git clone https://github.com/nobody2229/WebProject.git
+Cloning into 'WebProject'...
+remote: Enumerating objects: 44, done.
+remote: Counting objects: 100% (44/44), done.
+remote: Compressing objects: 100% (35/35), done.
+remote: Total 44 (delta 14), reused 29 (delta 9), pack-reused 0 (from 0)
+Receiving objects: 100% (44/44), 11.36 KiB | 90.00 KiB/s, done.
+Resolving deltas: 100% (14/14), done.
